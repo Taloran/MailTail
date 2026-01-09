@@ -2,7 +2,7 @@
 
 一个专为开发者和创意人士设计的 HTML 邮件签名生成器。基于 Vue 3 + Tailwind CSS 构建，拥有极其丰富的模板库，支持实时预览和一键复制兼容性良好的 HTML 代码。
 
-![Preview](./public/preview.png)
+![Demo](mail-tail.vercel.app)
 
 ## 特性 (Features)
 
