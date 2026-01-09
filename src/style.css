@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optimization: Pause ALL animations inside a group when not hovered */
+/* This saves massive GPU resources for templates like Glitch/Neon */
+.group:not(:hover) *, 
+.group:not(:hover) ::after,
+.group:not(:hover) ::before {
+  animation-play-state: paused !important;
+}
+
+
